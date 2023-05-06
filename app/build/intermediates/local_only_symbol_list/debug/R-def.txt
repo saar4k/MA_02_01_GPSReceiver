@@ -9,8 +9,9 @@ color teal_700
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-id textViewHoehe
-id textViewKor
+id hoehen_textview
+id koordinaten_textview
+id speed_textView
 layout activity_main
 mipmap ic_launcher
 mipmap ic_launcher_round
