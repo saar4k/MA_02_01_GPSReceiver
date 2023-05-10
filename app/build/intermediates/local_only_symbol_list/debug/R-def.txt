@@ -1,6 +1,10 @@
 R_DEF: Internal format may change without notice
 local
+color action_bar_background_color
+color background
 color black
+color dark_actionbar_background
+color dark_grey
 color purple_200
 color purple_500
 color purple_700
@@ -9,13 +13,27 @@ color teal_700
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id action_coordinate_format
+id action_decimal_degrees
+id action_degrees_minutes_seconds
 id hoehen_textview
+id hoehen_value_textview
 id koordinaten_textview
+id latitude_value_textview
+id longitude_value_textview
 id speed_textView
+id speed_value_textView
 layout activity_main
+menu gps_provider_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+style CustomToolbar
+style MyDarkActionBar
+style TextAppearance.DarkGrey
+style TextAppearance.DarkGrey.Heading
 style Theme.GPSReceiver
+style mainButtons
+style roundedCorners
 xml backup_rules
 xml data_extraction_rules
